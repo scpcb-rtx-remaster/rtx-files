@@ -6,6 +6,7 @@
 - XtrithX "XtrithX"
 - Simoxus "Simoxus"
 - Elisha Riedlinger "elishacloud"
+- Jimmy "jimmythetimmythejim"
 
 **And many more. Thank you for all your support and help to bring this project to life! :)**
 

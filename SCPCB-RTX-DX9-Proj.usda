@@ -1,0 +1,41 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary cameraSettings = {
+            dictionary Front = {
+                double3 position = (0, 0, 500)
+                double radius = 500
+            }
+            dictionary Perspective = {
+                double3 position = (5.707690404333301, 4.598460593507383, 143.8637840770892)
+                double3 target = (-41.657094962818576, -48.34018538832471, 33.06603958851896)
+            }
+            dictionary Right = {
+                double3 position = (-500, 0, 0)
+                double radius = 500
+            }
+            dictionary Top = {
+                double3 position = (0, 500, 0)
+                double radius = 500
+            }
+            string boundCamera = "/OmniverseKit_Persp"
+        }
+        string lightspeed_layer_type = "workfile"
+        dictionary omni_layer = {
+            string authoring_layer = "./mod.usda"
+            dictionary locked = {
+                bool "./deps/captures/173.usd" = 1
+            }
+        }
+        dictionary renderSettings = {
+        }
+    }
+    metersPerUnit = 1
+    subLayers = [
+        @./mod.usda@,
+        @./deps/captures/173.usd@
+    ]
+    timeCodesPerSecond = 24
+    upAxis = "Y"
+)
+

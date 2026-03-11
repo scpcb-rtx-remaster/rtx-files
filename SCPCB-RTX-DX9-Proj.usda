@@ -7,8 +7,8 @@
                 double radius = 500
             }
             dictionary Perspective = {
-                double3 position = (5.707690404333301, 4.598460593507383, 143.8637840770892)
-                double3 target = (-41.657094962818576, -48.34018538832471, 33.06603958851896)
+                double3 position = (14.461452246076318, 7.080330190188682, 134.3385045058314)
+                double3 target = (-71.67092821179492, -69.84566409676034, 126.78738790497631)
             }
             dictionary Right = {
                 double3 position = (-500, 0, 0)
@@ -30,7 +30,9 @@
         dictionary renderSettings = {
         }
     }
+    endTimeCode = 1
     metersPerUnit = 1
+    startTimeCode = 0
     subLayers = [
         @./mod.usda@,
         @./deps/captures/173.usd@

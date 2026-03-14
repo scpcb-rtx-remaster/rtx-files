@@ -7,8 +7,8 @@
                 double radius = 500
             }
             dictionary Perspective = {
-                double3 position = (-3.8704113961150712, 3.4494555040205004, 48.54006206152351)
-                double3 target = (-22.550553960904775, -28.807048386672278, 81.80286374995023)
+                double3 position = (-106.7042307119458, 11.438262862325892, 79.97654984824753)
+                double3 target = (-70.29223039402189, -84.91941040657574, 16.272070443266017)
             }
             dictionary Right = {
                 double3 position = (-500, 0, 0)
@@ -25,7 +25,7 @@
             string authoring_layer = "./mod.usda"
             dictionary locked = {
                 bool "../scpcb-rtx/rtx-remix/captures/room079.usd" = 1
-                bool "./deps/captures/room079.usd" = 1
+                bool "./deps/captures/room049.usd" = 1
                 bool "./deps/captures/room079_LCZ.usd" = 1
             }
         }
@@ -37,7 +37,7 @@
     startTimeCode = 0
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/room079.usd@
+        @./deps/captures/room049.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Y"

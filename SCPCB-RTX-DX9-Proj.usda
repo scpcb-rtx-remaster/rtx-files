@@ -7,8 +7,8 @@
                 double radius = 500
             }
             dictionary Perspective = {
-                double3 position = (-16.89624772948773, 5.391375736588086, 102.37423181158736)
-                double3 target = (4.395069074610196, -83.76023723248619, 155.35313691715254)
+                double3 position = (-104.77192133606056, 6.7008960305563114, 100.86814001689885)
+                double3 target = (-87.31291929410577, -123.22573559700926, 166.5699151132131)
             }
             dictionary Right = {
                 double3 position = (-500, 0, 0)
@@ -26,7 +26,7 @@
             dictionary locked = {
                 bool "../scpcb-rtx/rtx-remix/captures/room079.usd" = 1
                 bool "./deps/captures/room079_LCZ.usd" = 1
-                bool "./deps/captures/room4__1.usd" = 1
+                bool "./deps/captures/room4_2.usd" = 1
             }
         }
         dictionary renderSettings = {
@@ -37,7 +37,7 @@
     startTimeCode = 0
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/room4__1.usd@
+        @./deps/captures/room4_2.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Y"

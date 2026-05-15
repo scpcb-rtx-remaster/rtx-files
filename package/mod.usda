@@ -7,7 +7,7 @@
         }
         string lightspeed_mod_name = "SCPCB-RTX-DX9-Proj"
         string lightspeed_mod_notes = "A RTX Remaster of SCP - Containment Breach on Dx9"
-        string lightspeed_mod_version = "0.18"
+        string lightspeed_mod_version = "0.19"
     }
     timeCodesPerSecond = 24
     upAxis = "Y"
@@ -1857,11 +1857,11 @@ over "RootNode"
             )
             {
                 float3[] extent = [(-5, -5, -0), (5, 5, 0)]
-                color3f inputs:color = (0.8880309, 0.7783657, 0.6274504)
+                color3f inputs:color = (0.88235295, 0.81960785, 0.7294118)
                 float inputs:height = 165
-                float inputs:intensity = 1
-                float inputs:shaping:cone:angle = 180
-                float inputs:shaping:cone:softness
+                float inputs:intensity = 0.5
+                float inputs:shaping:cone:angle = 70.2
+                float inputs:shaping:cone:softness = 0.45000002
                 float inputs:shaping:focus
                 color3f inputs:shaping:focusTint
                 asset inputs:shaping:ies:file
@@ -1877,11 +1877,11 @@ over "RootNode"
             )
             {
                 float3[] extent = [(-5, -5, -0), (5, 5, 0)]
-                color3f inputs:color = (0.8880309, 0.7783657, 0.6274504)
+                color3f inputs:color = (0.88235295, 0.81960785, 0.7294118)
                 float inputs:height = 165
-                float inputs:intensity = 1
-                float inputs:shaping:cone:angle = 180
-                float inputs:shaping:cone:softness
+                float inputs:intensity = 0.5
+                float inputs:shaping:cone:angle = 70.2
+                float inputs:shaping:cone:softness = 0.45000002
                 float inputs:shaping:focus
                 color3f inputs:shaping:focusTint
                 asset inputs:shaping:ies:file
@@ -1897,11 +1897,11 @@ over "RootNode"
             )
             {
                 float3[] extent = [(-5, -5, -0), (5, 5, 0)]
-                color3f inputs:color = (0.8880309, 0.7783657, 0.6274504)
+                color3f inputs:color = (0.8841699, 0.81951886, 0.73054963)
                 float inputs:height = 165
-                float inputs:intensity = 1
-                float inputs:shaping:cone:angle = 180
-                float inputs:shaping:cone:softness
+                float inputs:intensity = 0.5
+                float inputs:shaping:cone:angle = 70.2
+                float inputs:shaping:cone:softness = 0.45000002
                 float inputs:shaping:focus
                 color3f inputs:shaping:focusTint
                 asset inputs:shaping:ies:file
@@ -1917,17 +1917,17 @@ over "RootNode"
             )
             {
                 float3[] extent = [(-5, -5, -5), (5, 5, 5)]
-                color3f inputs:color = (0.9098039, 0.84705883, 0.7294118)
-                float inputs:intensity = 155
-                float inputs:radius = 2
-                float inputs:shaping:cone:angle = 180
-                float inputs:shaping:cone:softness
+                color3f inputs:color = (0.88235295, 0.81960785, 0.7294118)
+                float inputs:intensity = 1
+                float inputs:radius = 55
+                float inputs:shaping:cone:angle = 117
+                float inputs:shaping:cone:softness = 1.7
                 float inputs:shaping:focus
                 color3f inputs:shaping:focusTint
                 asset inputs:shaping:ies:file
-                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:rotateXYZ = (-81.99999999999966, 179.9999941203901, 0.000006763717408375669)
                 double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (-0.00001461115971324034, 203.1112075022404, 122.56728846161514)
+                double3 xformOp:translate = (-0.1795507771676057, 321.4304988403059, 236.77712655363302)
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
@@ -2082,7 +2082,7 @@ over "RootNode"
                 asset inputs:shaping:ies:file
                 double3 xformOp:rotateXYZ = (0, 0, 0)
                 double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (4930.4562358903095, 1137.051907139603, 1978.9116012405284)
+                double3 xformOp:translate = (4815.89916, 1137.05191, 1978.9116012405284)
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
 
@@ -2101,7 +2101,7 @@ over "RootNode"
                 asset inputs:shaping:ies:file
                 double3 xformOp:rotateXYZ = (0, 0, 0)
                 double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (4930.4562358903095, 1137.051907139603, 1593.5734487446243)
+                double3 xformOp:translate = (4815.89916, 1137.051907139603, 1593.5734487446243)
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
